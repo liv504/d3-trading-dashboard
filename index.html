@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Trading dashboard</title>
+</head>
+
+<body>
+
+  <h1>AAPL stock performance over time</h1>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
+  <script src="script.js"></script>
+  <div id="controls">
+    <button onclick="zoomTime('5y')">Last 5 Years</button>
+    <button onclick="zoomTime('1y')">Last 1 Year</button>
+    <button onclick="zoomTime('1m')">Last 1 Month</button>
+    <button onclick="zoomTime('1w')">Last 1 Week</button>
+  </div>
+</body>
+</html>
